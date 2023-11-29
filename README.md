@@ -1,4 +1,6 @@
 # Project Title
+## About
+This is designed to set up an environment for compiling the libedgetpu library, specifically for use with the Google Coral USB Accelerator. The Dockerfile includes instructions for installing necessary dependencies, cloning the TensorFlow repository at a version compatible with TensorFlow Lite 2.5.0, and building the libedgetpu library using a Makefile. This setup ensures that the libedgetpu library is compiled in a controlled environment with all required dependencies, making it suitable for applications involving Edge TPU-based machine learning models.
 
 ## Dockerfile
 Dockerfile: This file contains all the instructions to build the Docker image. It sets up the environment, installs necessary packages, and configures the settings.
